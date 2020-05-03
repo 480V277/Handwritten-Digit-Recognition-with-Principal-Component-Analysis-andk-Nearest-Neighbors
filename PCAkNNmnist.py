@@ -1,10 +1,23 @@
-from ClassHelper import myCSVreader
 from sklearn.model_selection import cross_val_predict
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
+
+def myCSVreader(filename):
+  
+    import csv
+
+    rows = []   #initialize output
+    with open(filename, 'r') as csvfile:
+        csvreader = csv.reader(csvfile)
+   
+        for row in csvreader:
+            rows.append(row)
+
+    return rows
+
 
 #get data
 data_downloaded = myCSVreader('mnist_test.csv')
