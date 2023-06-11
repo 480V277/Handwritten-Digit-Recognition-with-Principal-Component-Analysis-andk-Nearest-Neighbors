@@ -1,5 +1,5 @@
 # Handwritten-Digit-Recognition-with-Principal-Component-Analysis-andk-Nearest-Neighbors
-My buddy and I created our first own machine learning project that was required for a class we took in college.
+Created my first own machine learning project that was required for a class we took in college.
 We took the project furhter than all the other students. This is what sparked my intertest into machine learning.
 
 #Motive
